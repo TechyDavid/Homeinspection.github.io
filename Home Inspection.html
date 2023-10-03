@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Inspection Service</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="shortcut icon" href="ruf.png" type="image/x-icon">
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .nav{
+        width: auto;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo img{
+        margin-left: 40px;
+        width: 100px;
+    }
+    .navbar ul{
+        list-style: none;
+        display: flex;
+    }
+    .navbar ul li{
+        margin-right: 20px;
+        width: 120px;
+        font-size: large;
+        font-family: tahoma;
+        border: 2px solid wheat;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover{
+        background-color: wheat;
+        font-weight: bold;
+    }
+    .container{
+        width: auto;
+        height: 600px;
+        background-color: black;
+        display: flex;
+    }
+    @font-face {
+        font-family: Doumbar Medium;
+        src: url(doumbar-medium.otf);
+    }
+    .con{
+        width: 50%;
+        height: 600px;
+        background-color: aqua;
+        background-image: url(fomstock-4ojhpgKpS68-unsplash.jpg);
+        background-size: cover;
+    }
+    .cont{
+        font-family: Tahoma;
+        width: 50%;
+        height: 600px;
+        background-color: rgb(245, 240, 240);
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .cont button{
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        margin-left: 30px;
+        background-color: #ababab;
+        border-radius: 10px;
+    }
+    .omo{
+        font-family: Doumbar Medium;
+        margin-left: 30px;
+    }
+    .req{
+        margin-top: 10px;
+        font-size: small;
+        margin-left: 30px;
+    }
+    .eli{
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    .vid{
+        width: auto;
+        height: 900px;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    video{
+        position: absolute;
+    }
+</style>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="ruf.png" alt=""></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="con"></div>
+        <div class="cont"><span class="eli">ELIMINATE SURPRISES, </span>
+            <span class="omo">EARN <br>PEACE OF MIND</span>
+            <span class="req">Request an appointment or schedule an insepection today!</span>
+            <button>Schedule Inspection</button>
+        </div>
+    </div>
+    <div class="vid">
+        <video playsinline autoplay muted loop poster="ruf.png">
+            <source src="production_id_3773486 (1080p).mp4" type="video/webm">
+        </video>
+    </div>
+</body>
+</html>
